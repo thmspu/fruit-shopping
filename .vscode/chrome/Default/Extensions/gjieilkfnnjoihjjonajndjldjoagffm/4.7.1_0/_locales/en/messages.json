@@ -1,0 +1,103 @@
+{
+   "b0": {
+      "message": "Ok"
+   },
+   "b1": {
+      "message": "Cancel"
+   },
+   "b2": {
+      "message": "View My Browsing History"
+   },
+   "calendar": {
+      "description": "Calendar",
+      "message": "Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec;Su;Mo;Tu;We;Th;Fr;Sa;Sunday;Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Previous Year;Next Year;Previous Month;Next Month;✔ Today;Cancel"
+   },
+   "cleaner1": {
+      "description": "Cleaner Buttons / Labels & Titles",
+      "message": "Don't forget to...;Rate 5 Stars on Google Chrome Apps Gallery;Contribute;Run Eraser;History;Manage Browsing History;Support;Help;Easy;Medium;Hard;Dev;On/Off Developer Mode;Set Eraser Mode;Backup options…;Restore options…;Remove items from your Google Web History;Stop syncing and clear all synced Chrome data;Privacy Test;Enable secure search over SSL;Set a shortcut key to open the Eraser"
+   },
+   "cleaner2": {
+      "description": "Cleaner Options / Headers",
+      "message": "ERASER;ADVANCED;ACCESS CONTROL;EXTRA;Normal websites;Websites that have been installed as hosted applications;Extensions and packaged applications"
+   },
+   "cleaner3": {
+      "description": "Cleaner Options / Select Time Period",
+      "message": "Erase the following items from:;the beginning of current session;the past hour;the past 2 hours;the past 4 hours;the past 8 hours;the past 10 hours;the past 12 hours;the past 24 hours;the past week;-/-;the beginning of time"
+   },
+   "cleaner4": {
+      "description": "Cleaner Options / Labels",
+      "message": "Close all tabs before cleaning;Clear browsing history;Clear download history;Empty the cache;Delete cookies;Clear saved passwords;Clear saved form data;Delete local storage;Delete webSQL databases;Delete indexed databases;Delete file systems;Empty application cache;Delete plug-in data;Delete cookies;Delete local storage;Delete webSQL databases;Delete indexed databases;Delete file systems;Empty application cache;Delete cookies;Delete local storage;Delete webSQL databases;Delete indexed databases;Delete file systems;Empty application cache;Reload active tabs after cleaning;Close Chrome after cleaning;Close App after cleaning;Play sound when task finished;Add Eraser commands to context menu;Prevent access to the default history page;Turn on notifications (recommended);Show total number of pages you have visited"
+   },
+   "cleaner5": {
+      "description": "Cleaner Options / Custom Titles",
+      "message": "View Details;Close all tabs now;Reload all tabs now (without cleanup);Close Chrome now (without cleanup);Close App now (without cleanup);Play now"
+   },
+   "ctxMenu": {
+      "description": "Context Menu Items",
+      "message": "Forget this Page;Open link anonymously (no referrer);Secure search Google for '%s'"
+   },
+   "days": {
+      "description": "Days of the week",
+      "message": "Sunday;Monday;Tuesday;Wednesday;Thursday;Friday;Saturday"
+   },
+   "extDesc": {
+      "message": "Deletes typed URLs, Cache, Cookies, your Download and Browsing History...instantly, with just 1-click on the Eraser button!"
+   },
+   "extName": {
+      "message": "History Eraser"
+   },
+   "extTitle": {
+      "message": "Launch History Eraser"
+   },
+   "history": {
+      "description": "History Viewer",
+      "message": "Filter by title;Refresh;Select All/None;Remove selected items;None found;Export as HTML..."
+   },
+   "m0": {
+      "message": "The new History Eraser App version $1 has been installed successfully!"
+   },
+   "m1": {
+      "message": "Thank You for using History Eraser App"
+   },
+   "m12": {
+      "message": "An error occurred!"
+   },
+   "m2": {
+      "message": "Software Made to Make Your Life Better!"
+   },
+   "m20a": {
+      "message": "Warning! Many extensions can store their settings here. If you select this option, any saved preferences will be reset!"
+   },
+   "m20b": {
+      "message": "Many extensions can store their settings here. Are you sure you want to proceed?"
+   },
+   "m3": {
+      "message": "Attention! You haven't run a clean up on your browsing history for a while. This could put your private data at risk."
+   },
+   "m4": {
+      "message": "This is experimental mode. Not all features may work as expected. Use it at your own risk!"
+   },
+   "m5a": {
+      "message": "Warning! If you select this option, any saved passwords will be deleted."
+   },
+   "m5b": {
+      "message": "Are you sure you want to delete saved passwords?"
+   },
+   "m7": {
+      "message": "Cleaning Complete"
+   },
+   "m8": {
+      "message": "Done"
+   },
+   "m9": {
+      "message": "Do not show me this message again"
+   },
+   "months": {
+      "description": "Months",
+      "message": "January;February;March;April;May;June;July;August;September;October;November;December"
+   },
+   "share": {
+      "description": "Share Button / Titles",
+      "message": "Subscribe to our videos on YouTube;Share on Facebook;Share on Google plus;Share on Twitter;Follow Us on Twitter;Share via Email;Pin History Eraser on Pinterest"
+   }
+}

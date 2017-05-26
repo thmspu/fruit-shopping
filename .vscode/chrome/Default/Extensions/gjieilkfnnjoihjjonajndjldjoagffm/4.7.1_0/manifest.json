@@ -1,0 +1,35 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/19.png",
+      "default_title": "__MSG_extTitle__"
+   },
+   "content_scripts": [ {
+      "js": [ "cs.js" ],
+      "matches": [ "*://www.hotcleaner.com/clear-browsing-history.html" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "homepage_url": "https://www.hotcleaner.com/",
+   "icons": {
+      "128": "img/128.png",
+      "16": "img/16.png",
+      "48": "img/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCt9arpKUmpjjinfbkdmLC9gg55++2glblsv6WCxtV/CEB1nOJI/tL3Ng+MBsYCOa+lJMBMapTrJ6jFDAqTJbVxYnEwtb4nQJ2Ge09vtjdmZaDll5xT9C8IN0bNsIPKdRPbz0EBjPBy4wZoXkT3bI60eQDERgyyXESg9sFAzYIifQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "26.0",
+   "name": "__MSG_extName__",
+   "options_page": "cleaner.html",
+   "options_ui": {
+      "chrome_style": false,
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "browsingData", "contextMenus", "chrome://favicon/", "history", "cookies", "unlimitedStorage", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.7.1",
+   "web_accessible_resources": [ "img/4710.png", "img/16.png", "img/inst.jpg", "data.json", "history.html", "history.js", "calendar.js" ]
+}

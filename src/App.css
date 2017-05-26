@@ -1,0 +1,42 @@
+  .product-tile {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin:5px}
+  .product-tile-name {
+    font-size: 2em;
+    font-weight: bold}
+  .btn.product-tile-button {
+    padding: 10px 22px;
+    margin-right: 10px}
+
+  .basket-item-name {
+    font-size: 2em;
+  }
+
+  .basket-item-offer {
+    margin-left: 0.2em;
+  }
+
+  .basket-item-price {
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 2em;
+  }
+
+  .basket-item-remove {
+    float:right;
+    width:20px;
+    font-size: 0.5em;
+    margin-right: 10px
+
+  }
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
