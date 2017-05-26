@@ -1,0 +1,36 @@
+body{
+    font-size: 16px;
+}
+
+@theme-green: #3bffbf;
+
+.theme-btn(@backgroundColor, @color, @width, @height){
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: @backgroundColor;
+    width: @width;
+    height: @height;
+    padding: 0 10px;
+    color: @color;
+    border-radius: 3px;
+    border: 0;
+    overflow: hidden;
+    line-height: @height;
+    .transition(all,.3s);
+    &:hover{
+        background: white;
+        color: @theme-green;
+    }
+    &:active{
+        outline: none;
+    }
+}
+
+.transition(@property, @duration){
+    -webkit-transition: @property @duration;
+    -moz-transition: @property @duration;
+    -ms-transition: @property @duration;
+    -o-transition: @property @duration;
+    transition: @property @duration;
+}

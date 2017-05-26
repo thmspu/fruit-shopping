@@ -1,0 +1,37 @@
+@import "../public";
+
+
+.fruit-card{
+  display: inline-block;
+  height: 300px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 0 10px;
+
+  >div {
+    height: 100%;
+    border: solid 1px darkgreen;
+    text-align: center;
+    .price{
+      font-size: 1.8em;
+    }
+    .stock{
+      font-size: 1em;
+    }
+    p{
+      display: inline-block;
+      width: 95%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+    }
+  }
+  img{
+    width:100%;
+    height:160px;
+  }
+  .btn_add_cart{
+    .theme-btn(@theme-green, black, 80%, 30px);
+  }
+}
